@@ -24,9 +24,7 @@
           <p>
             Porque o aprendizado é contínuo
           </p>
-          <div class="arrow-container">
-            <img src="Assets/arrow-down.svg" alt="Arrow">
-          </div>
+          <div class="arrow-container"></div>
         </div>
       </div>
     </header>
@@ -66,14 +64,20 @@
           Entre em contato
         </h1>
         
-        <label for="name"></label>
-        <input type="text">
+        <label for="name" class="hide"></label>
+        <div class="input-container">
+          <span><img src="Assets/icon-person.svg" alt=""></span>
+          <input type="text" placeholder="Seu nome">
+        </div>
       
-        <label for="email"></label>
-        <input type="email">
+        <label for="email" class="hide"></label>
+        <div class="input-container">
+          <span><img src="Assets/icon-email.svg" alt=""></span>
+          <input type="email" placeholder="E-mail">
+        </div>
   
         <label for="message"></label>
-        <textarea name="message" id="message"></textarea>
+        <textarea name="message" id="message" placeholder="Digite sua mensagem aqui..." ></textarea>
         
         <button>Enviar Mensagem</button>
       </form>
