@@ -13,17 +13,21 @@
   </head>
   <body>
     <header>
-      <div class="img-container">
-        <img src="Assets/astronaut.svg" alt="Astronauta voando no espaço">
-      </div>
-      <div class="text-container">
-        <h1>
-          Explore sem Limites
-        </h1>
-        <p>
-          Porque o aprendizado é contínuo
-        </p>
-        <img src="Assets/arrow.svg" alt="Arrow">
+      <div class="header-content">
+        <div class="img-container">
+          <img src="Assets/astronaut-3.png" alt="Astronauta voando no espaço">
+        </div>
+        <div class="text-container">
+          <h1>
+            Explore sem Limites
+          </h1>
+          <p>
+            Porque o aprendizado é contínuo
+          </p>
+          <div class="arrow-container">
+            <img src="Assets/arrow-down.svg" alt="Arrow">
+          </div>
+        </div>
       </div>
     </header>
     <div class="cards-container">
@@ -56,22 +60,24 @@
       </div>
     </div>
 
-    <form>
-      <h2>
-        Entre em contato
-      </h1>
+    <div class="form-container">
+      <form>
+        <h2>
+          Entre em contato
+        </h1>
+        
+        <label for="name"></label>
+        <input type="text">
       
-      <label for="name"></label>
-      <input type="text">
-    
-      <label for="email"></label>
-      <input type="email">
-
-      <label for="message"></label>
-      <textarea name="message" id="message"></textarea>
-      
-      <button>Enviar Mensagem</button>
-    </form>
+        <label for="email"></label>
+        <input type="email">
+  
+        <label for="message"></label>
+        <textarea name="message" id="message"></textarea>
+        
+        <button>Enviar Mensagem</button>
+      </form>
+    </div>
 
     <footer>© 2023 - Rocketseat Explorer</footer>
   </body>
