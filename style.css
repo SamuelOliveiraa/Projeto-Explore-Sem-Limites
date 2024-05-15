@@ -161,30 +161,30 @@ footer {
     position: relative;
     padding: 0 2rem;
   }
-  header .header-content .text-container {  
+  header .header-content .text-container {
     margin: 0;
   }
   header .header-content .text-container h1 { 
-    font-size: 3rem; 
+    font-size: 3rem;
   }
-  header .header-content .text-container p {  
+  header .header-content .text-container p {
     font-size: 1.7rem;
   }
   header .header-content .img-container {
-    width: 50%; 
-  } 
+    width: 50%;
+  }
   header .header-content .arrow-container {
-    width: 4rem; 
+    width: 4rem;
     position: absolute;
     bottom: 10%;
-  } 
-    
-  .cards-container {  
+  }
+
+  .cards-container {
     max-width: 110rem;
     margin: 0 auto;
-  }  
- 
-  .form-container {  
+  }
+
+  .form-container {
     padding: 5rem 7rem;
     /* 
     background: url(Assets/back-footer.svg) no-repeat;
