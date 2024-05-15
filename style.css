@@ -164,7 +164,7 @@ footer {
   header .header-content .text-container {
     margin: 0;
   }
-  header .header-content .text-container h1 {
+  header .header-content .text-container h1 { 
     font-size: 3rem;
   }
   header .header-content .text-container p {  
