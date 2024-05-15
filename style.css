@@ -174,7 +174,7 @@ footer {
     width: 50%; 
   } 
   header .header-content .arrow-container {
-    width: 4rem;
+    width: 4rem; 
     position: absolute;
     bottom: 10%;
   } 
